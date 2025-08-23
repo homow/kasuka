@@ -15,8 +15,12 @@
     /* colors */
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
-    @apply font-dana-rg;
+    @apply font-dana-md text-neutral-700;
 }
 
 @utility container {

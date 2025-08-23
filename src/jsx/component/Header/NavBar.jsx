@@ -23,30 +23,31 @@ const navMenuHandler = elem => {
 
 function NavBar() {
     return (<StrictMode>
-        <nav className={"flex items-center justify-between"}>
-            <div id="overlay" className="fixed inset-0 -bottom-2000 bg-black/60 z-10 hidden"></div>
-            <div className={"max-w-30"}><a href="https://homow.ir"><img className={"w-full"} src="/static/logo/logo.webp" alt="logo"/></a></div>
-            <ul className={'z-20 max-md:fixed top-0 -right-45 bottom-0 transition-all duration-150 flex gap-1 max-md:flex-col md:flex-row md:grow md:justify-center md:gap-5 lg:gap-12 font-dana-md max-md:text-black max-md:bg-white w-40'} id={"menu"}>
-                <li>
-                    <a className={'block max-md:py-4 max-md:pr-4 max-md:hover:bg-amber-400 md:hover:text-amber-400 transition-all duration-300'} href="/">خانه</a>
-                </li>
-                <li>
-                    <a className={'block max-md:py-4 max-md:pr-4 max-md:hover:bg-amber-400 md:hover:text-amber-400 transition-all duration-300'} href="">درباره ما</a>
-                </li>
-                <li>
-                    <a className={'block max-md:py-4 max-md:pr-4 max-md:hover:bg-amber-400 md:hover:text-amber-400 transition-all duration-300'} href="">خدمات</a>
-                </li>
-                <li>
-                    <a className={'block max-md:py-4 max-md:pr-4 max-md:hover:bg-amber-400 md:hover:text-amber-400 transition-all duration-300'} href="">نمونه کارها</a>
-                </li>
-                <li>
-                    <a className={'block max-md:py-4 max-md:pr-4 max-md:hover:bg-amber-400 md:hover:text-amber-400 transition-all duration-300'} href="">تیم</a>
-                </li>
-                <li>
-                    <a className={'block max-md:py-4 max-md:pr-4 max-md:hover:bg-amber-400 md:hover:text-amber-400 transition-all duration-300'} href="">تماس با ما</a>
-                </li>
-            </ul>
-            <div className={"cursor-pointer"}>
+        <nav className={"fixed bg-black/80 backdrop-blur-3xl z-10 top-0 py-4 right-0 left-0"}>
+            <div className={'container flex items-center justify-between'}>
+                <div id="overlay" className="fixed inset-0 -bottom-2000 bg-black/60 z-10 hidden"></div>
+                <div className={"max-w-30"}><a href="https://homow.ir"><img className={"w-full"} src="/static/logo/logo.webp" alt="logo"/></a></div>
+                <ul className={'z-20 max-md:fixed top-0 -right-45 bottom-0 transition-all duration-150 flex gap-1 max-md:flex-col md:flex-row md:grow md:justify-center md:gap-5 lg:gap-12 font-dana-md max-md:text-black max-md:bg-white w-40'} id={"menu"}>
+                    <li>
+                        <a className={'block max-md:py-4 max-md:pr-4 max-md:hover:bg-amber-400 md:hover:text-amber-400 transition-all duration-300'} href="/">خانه</a>
+                    </li>
+                    <li>
+                        <a className={'block max-md:py-4 max-md:pr-4 max-md:hover:bg-amber-400 md:hover:text-amber-400 transition-all duration-300'} href="">درباره ما</a>
+                    </li>
+                    <li>
+                        <a className={'block max-md:py-4 max-md:pr-4 max-md:hover:bg-amber-400 md:hover:text-amber-400 transition-all duration-300'} href="">خدمات</a>
+                    </li>
+                    <li>
+                        <a className={'block max-md:py-4 max-md:pr-4 max-md:hover:bg-amber-400 md:hover:text-amber-400 transition-all duration-300'} href="">نمونه کارها</a>
+                    </li>
+                    <li>
+                        <a className={'block max-md:py-4 max-md:pr-4 max-md:hover:bg-amber-400 md:hover:text-amber-400 transition-all duration-300'} href="">تیم</a>
+                    </li>
+                    <li>
+                        <a className={'block max-md:py-4 max-md:pr-4 max-md:hover:bg-amber-400 md:hover:text-amber-400 transition-all duration-300'} href="">تماس با ما</a>
+                    </li>
+                </ul>
+                <div className={"cursor-pointer"}>
                     <span onClick={navMenuHandler.bind(this)} data-nav-menu="close" className={"z-30 md:hidden"}>
                         <svg data-icon-menu='open' xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 z-30">
                             <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"/>
@@ -56,7 +57,8 @@ function NavBar() {
                         </svg>
                     </span>
 
-                <a className={'hidden md:block py-2 px-4 border border-amber-400 rounded-sm transition-all duration-250 hover:bg-amber-400 hover:text-black/90'} href="https://homow.ir">شروع</a>
+                    <a className={'hidden md:block py-2 px-4 border border-amber-400 rounded-sm transition-all duration-250 hover:bg-amber-400 hover:text-black/90'} href="https://homow.ir">شروع</a>
+                </div>
             </div>
         </nav>
     </StrictMode>)

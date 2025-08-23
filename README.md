@@ -1,6 +1,5 @@
 ## 📝 قالب README برای پروژه‌ی Kakusa (راست‌چین، React + Vite + Tailwind)
 
-```markdown
 # Kakusa Template 🇮🇷
 
 A clean, RTL-ready web template built with **React**, **Vite**, and **TailwindCSS**.  
@@ -33,11 +32,11 @@ npm run dev
 
 ## 🛠 Development Scripts
 
-| Command | Description |
-|--------|-------------|
-| `npm run dev` | Start development server |
-| `npm run build` | Build for production |
-| `npm run lint` | Run ESLint checks |
+| Command         | Description              |
+|-----------------|--------------------------|
+| `npm run dev`   | Start development server |
+| `npm run build` | Build for production     |
+| `npm run lint`  | Run ESLint checks        |
 
 ## 📁 Folder Structure
 

@@ -27,7 +27,7 @@ function NavBar() {
             <div className={'container flex items-center justify-between'}>
                 <div id="overlay" className="fixed inset-0 -bottom-2000 bg-black/60 z-10 hidden"></div>
                 <div className={"max-w-30"}><a href="https://homow.ir"><img className={"w-full"} src="/static/logo/logo.webp" alt="logo"/></a></div>
-                <ul className={'z-20 max-md:fixed top-0 -right-45 bottom-0 transition-all duration-150 flex gap-1 max-md:flex-col md:flex-row md:grow md:justify-center md:gap-5 lg:gap-12 font-dana-md max-md:text-black max-md:bg-white w-40'} id={"menu"}>
+                <ul className={'z-20 max-md:fixed top-0 -right-45 -bottom-[100vh] transition-all duration-150 flex gap-1 max-md:flex-col md:flex-row md:grow md:justify-center md:gap-5 lg:gap-12 font-dana-md max-md:text-black max-md:bg-white w-40'} id={"menu"}>
                     <li>
                         <a className={'block max-md:py-4 max-md:pr-4 max-md:hover:bg-amber-400 md:hover:text-amber-400 transition-all duration-300'} href="/">خانه</a>
                     </li>

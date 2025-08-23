@@ -2,10 +2,13 @@
 @import "tailwindcss";
 
 @theme {
+    /* fonts */
     --font-dana-lt: "dana light", sans-serif;
     --font-dana-rg: "dana regular", sans-serif;
     --font-dana-md: "dana medium", sans-serif;
     --font-dana-bl: "dana bold", sans-serif;
+
+    /* colors */
 }
 
 body {

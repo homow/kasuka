@@ -1,4 +1,4 @@
-@import "./dana-font-face.css";
+@import "@/styles/font.css";
 @import "tailwindcss";
 
 @theme {

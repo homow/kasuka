@@ -1,5 +1,3 @@
-## 📝 قالب README برای پروژه‌ی Kakusa (راست‌چین، React + Vite + Tailwind)
-
 # Kakusa Template 🇮🇷
 
 A clean, RTL-ready web template built with **React**, **Vite**, and **TailwindCSS**.  
@@ -27,7 +25,6 @@ npm run dev
 - ✅ Fully RTL layout (right-to-left)
 - 🎯 Responsive design with Tailwind v4
 - 🧩 Modular components (Tabs, Navbar, Footer)
-- 🌙 Dark mode ready
 - 🧠 Clean architecture for scalability
 
 ## 🛠 Development Scripts
@@ -41,18 +38,31 @@ npm run dev
 ## 📁 Folder Structure
 
 ```
-src/
-├── components/
-│   ├── Navbar.jsx
-│   ├── Tabs.jsx
-│   └── Footer.jsx
-├── pages/
-│   └── Home.jsx
-├── App.jsx
-├── index.jsx
-public/
-tailwind.config.js
-vite.config.js
+📁 client/
+├── 📁 public/
+│   └── 📄 static-files
+│
+├── 📁 src/
+│   ├── 📁 styles/
+│   │   ├── font.css
+│   │   └── global.css
+│   │
+│   ├── 📁 components/
+│   │   ├── Footer/
+│   │   ├── Header/
+│   │   └── Main/
+│   │
+│   ├── App.jsx
+│   └── index.jsx
+│
+├── 📄 index.html
+├── 📄 vite.config.js
+├── 📄 eslint.config.js
+├── 📄 package.json
+├── 📄 package-lock.json
+├── 📄 .gitignore
+├── 📄 .gitattributes
+├── 📄 README.md
 ```
 
 ## 🌐 Deployment
@@ -69,5 +79,6 @@ MIT — Free to use, modify, and share.
 
 ---
 
-> Designed by **homow** with sacred architecture and resistance.  
-> Kakusa is not just a template—it's a statement.
+Developed by homow as a React-based practice project.  
+Original design by RtlTheme — [Kakusa HTML Template](https://www.rtl-theme.com/kasuka-template-html/)
+This is not a commercial fork — it's a learning sandbox.

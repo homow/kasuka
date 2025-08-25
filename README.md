@@ -1,4 +1,4 @@
-# Kakusa Template 🇮🇷
+# Kakusa Template
 
 A clean, RTL-ready web template built with **React**, **Vite**, and **TailwindCSS**.  
 Designed for Persian/Arabic interfaces with modern architecture and blazing-fast performance.

@@ -3,6 +3,7 @@
 
 @theme {
     /* break-points */
+    --breakpoint-xx: 21rem;
     --breakpoint-xs: 24rem;
     --breakpoint-sm: 36rem;
 
@@ -31,14 +32,25 @@ body {
     h1 {
         @apply font-dana-bl text-[1.75rem] leading-10 lg:text-5xl lg:leading-16;
     }
+
     h2 {
         @apply font-dana-bl text-xl leading-10 lg:text-2xl lg:leading-13;
     }
+
     h3 {
         @apply font-dana-bl text-lg leading-10 lg:text-xl lg:leading-12;
     }
+
+    p {
+        @apply text-sm xx:text-base;
+    }
 }
 
-/*@utility components {*/
-
-/*}*/
+@layer components {
+    .info-section-text {
+        @apply inline-block text-gray-500 text-sm relative after:block after:absolute after:-left-46 after:top-1/2 after:bg-amber-400 after:w-40 after:h-[1px];
+    }
+    .info-section-title {
+        @apply text-4xl text-black/90 font-dana-bl mt-2;
+    }
+}

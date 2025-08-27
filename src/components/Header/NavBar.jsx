@@ -57,7 +57,7 @@ function NavBar() {
                         </svg>
                     </span>
 
-                    <a className={'hidden md:block py-2 px-4 border border-amber-400 rounded-sm transition-all duration-250 hover:bg-amber-400 hover:text-black/90'} href="https://homow.ir">شروع</a>
+                    <a className={'hidden md:block border-amber-400 hover-links'} href="https://homow.ir">شروع</a>
                 </div>
             </div>
         </nav>

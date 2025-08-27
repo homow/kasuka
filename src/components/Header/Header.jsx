@@ -1,8 +1,8 @@
 "use strict";
 
 import {useEffect} from "react";
-import NavBar from '@/jsx/component/Header/NavBar.jsx'
-import HeaderIconBox from "@/jsx/component/Header/HeaderIconBox.jsx";
+import NavBar from '@/components/Header/NavBar.jsx'
+import HeaderIconBox from "@/components/Header/HeaderIconBox.jsx";
 
 function Header() {
     useEffect(() => {

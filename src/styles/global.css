@@ -15,24 +15,17 @@
 
     /* box-shadow */
     --shadow-primary: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
-
-    /* font-size */
-    --text-title: 1.5rem;
-}
-
-html {
-    scroll-behavior: smooth;
-}
-
-body {
-    @apply font-dana-md text-neutral-700;
-}
-
-@utility container {
-    @apply mx-auto px-3;
 }
 
 @layer base {
+    html {
+        @apply scroll-smooth;
+    }
+
+    body {
+        @apply font-dana-md text-neutral-700;
+    }
+
     h1 {
         @apply font-dana-bl text-[1.75rem] leading-10 lg:text-5xl lg:leading-16;
     }
@@ -50,14 +43,24 @@ body {
     }
 }
 
+@utility container {
+    @apply mx-auto px-3;
+}
+
 @layer components {
     .info-section-text {
         @apply inline-block text-gray-500 text-sm relative after:block after:absolute after:-left-46 after:top-1/2 after:bg-amber-400 after:w-40 after:h-[1px];
     }
+
     .info-section-title {
         @apply text-2xl text-black/90 font-dana-bl mt-2 md:text-3xl lg:text-4xl;
     }
+
     .hover-links {
         @apply border px-4 py-2 rounded-sm transition-all duration-150 hover:bg-amber-400 hover:text-black;
+    }
+
+    .text-title {
+        @apply text-2xl sm:text-3xl md:text-4xl;
     }
 }

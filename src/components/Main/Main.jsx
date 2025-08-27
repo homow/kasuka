@@ -4,6 +4,7 @@ import TextIcon from "@/components/Main/Main-about/TextIcon.jsx";
 import BrandsLogo from '@/components/Main/Main-about/BrandsLogo.jsx'
 import IconTitleText from "@/components/Main/Main-Feature/IconTitleText.jsx";
 import TitleIconServices from "@/components/Main/Main-Services/TitleIconServices.jsx"
+import MainCountIcons from "@/components/Main/Main-Count-Icons/MainCountIcons.jsx";
 
 function Main() {
     return (
@@ -161,6 +162,41 @@ function Main() {
                         </div>
                         <div className={"max-h-max"}>
                             <img className={"w-full h-auto object-cover"} src="/static/img/main/portfolio/imgi_19_portfolio-9.webp" alt="img"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            {/* count-section */}
+            <section id={"count-section"} className={"mt-20"}>
+                <div className={"container xl:max-w-[80%] 2xl:max-w-[70%] xl:flex flex-row gap-4"}>
+                    <div className={"basis-1/3 md:h-100 xl:w-200"}>
+                        <img src="/static/img/main/imgi_32_counts-img.webp" alt="team" className="w-full h-full object-cover"/>
+                    </div>
+                    <div className={"basis-2/3"}>
+                        <div className={"mt-8 xl:mt-0"}>
+                            <h3 className={"text-title"}>شایسته ترین لذت را به هر حال ارائه می دهد</h3>
+                            <p className={"mt-2"}>
+                                خود درد ممکن است درد زیادی باشد ، اما دلیل اصلی آن درد است ، اما من به آن زمان می دهم تا مانند یک درد و درد بزرگ در آن فرو برود. درد مقصر است
+                            </p>
+                        </div>
+                        <div className={"mt-8 grid grid-cols-1 gap-8 sm:grid-cols-2"}>
+                            <MainCountIcons icon={<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="oklch(82.8% 0.189 84.429)" className="size-10">
+                                <path strokeLinecap="round" strokeLinejoin="round" d="M15.182 15.182a4.5 4.5 0 0 1-6.364 0M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0ZM9.75 9.75c0 .414-.168.75-.375.75S9 10.164 9 9.75 9.168 9 9.375 9s.375.336.375.75Zm-.375 0h.008v.015h-.008V9.75Zm5.625 0c0 .414-.168.75-.375.75s-.375-.336-.375-.75.168-.75.375-.75.375.336.375.75Zm-.375 0h.008v.015h-.008V9.75Z"/>
+                            </svg>
+                            } count={"85"} text={"پروژه ها برای بدست آوردن و زمانی که او کل کسانی را که از او تعریف می کنند رد می کند و آنها را حقیر می شمارد"}/>
+                            <MainCountIcons icon={<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="oklch(82.8% 0.189 84.429)" className="size-10">
+                                <path strokeLinecap="round" strokeLinejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z"/>
+                            </svg>
+                            } count={"35"} text={"سال ها تجربه یا اجازه دهید به دنبال نوعی مزیت باشد"}/>
+                            <MainCountIcons icon={<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="oklch(82.8% 0.189 84.429)" className="size-10">
+                                <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 6h9.75M10.5 6a1.5 1.5 0 1 1-3 0m3 0a1.5 1.5 0 1 0-3 0M3.75 6H7.5m3 12h9.75m-9.75 0a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m-3.75 0H7.5m9-6h3.75m-3.75 0a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m-9.75 0h9.75"/>
+                            </svg>
+                            } count={"65"} text={"مشتریان خوشحال خوشحالیم که از معمار چیزی دریافت کنیم."}/>
+                            <MainCountIcons icon={<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="oklch(82.8% 0.189 84.429)" className="size-10">
+                                <path strokeLinecap="round" strokeLinejoin="round" d="M6 13.5V3.75m0 9.75a1.5 1.5 0 0 1 0 3m0-3a1.5 1.5 0 0 0 0 3m0 3.75V16.5m12-3V3.75m0 9.75a1.5 1.5 0 0 1 0 3m0-3a1.5 1.5 0 0 0 0 3m0 3.75V16.5m-6-9V3.75m0 3.75a1.5 1.5 0 0 1 0 3m0-3a1.5 1.5 0 0 0 0 3m0 9.75V10.5"/>
+                            </svg>
+                            } count={"20"} text={"جوایز درد دردناک تر است در زمانی دیگر که هیچکس او را متهم نمی کند و هیچ وقت او را متهم نمی کند"}/>
                         </div>
                     </div>
                 </div>

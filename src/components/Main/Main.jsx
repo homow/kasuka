@@ -6,6 +6,7 @@ import IconTitleText from "@/components/Main/Main-Feature/IconTitleText.jsx";
 import TitleIconServices from "@/components/Main/Main-Services/TitleIconServices.jsx"
 import MainCountIcons from "@/components/Main/Main-Count-Icons/MainCountIcons.jsx";
 import Testimonials from "@/components/Main/Testimonials/Testimonials.jsx";
+import TeamSection from "@/components/Main/TeamSction/TeamSection.jsx";
 
 function Main() {
     return (
@@ -213,6 +214,20 @@ function Main() {
                     <Testimonials img = "public/static/img/main/testimonials/imgi_22_testimonials-3.webp" title = "سارا ویلسون" subtitle = "فریلسنر" text = "پیامد های خالص بدون هیچ افزونه و وابستگی و فریم ورک یا کتابخانه ای، همه چیز خالص ترین حالت ممکن است، همه چی صاف و زیبا، دقیقا شبیه به درست بودن ایران." />
                     <Testimonials img = "public/static/img/main/testimonials/imgi_22_testimonials-3.webp" title = "سارا ویلسون" subtitle = "فریلسنر" text = "پیامد های خالص بدون هیچ افزونه و وابستگی و فریم ورک یا کتابخانه ای، همه چیز خالص ترین حالت ممکن است، همه چی صاف و زیبا، دقیقا شبیه به درست بودن ایران." />
                     <Testimonials img = "public/static/img/main/testimonials/imgi_22_testimonials-3.webp" title = "سارا ویلسون" subtitle = "فریلسنر" text = "پیامد های خالص بدون هیچ افزونه و وابستگی و فریم ورک یا کتابخانه ای، همه چیز خالص ترین حالت ممکن است، همه چی صاف و زیبا، دقیقا شبیه به درست بودن ایران." />
+                </div>
+            </section>
+
+            {/* team section */}
+            <section id={"team-section"} className={"mt-20"}>
+                <div className={"container"}>
+                    <h2 className="info-section-text">خدمات</h2>
+                    <p className={"info-section-title"}>خدمات ما را بررسی کنید</p>
+                </div>
+                <div className={"mt-8 container space-y-8 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-8 lg:grid lg:grid-cols-4 lg:gap-8"}>
+                    <TeamSection img={"/static/img/main/team/imgi_25_team-1.webp"} title={"چنگیز"} job={"مدیر کل"}/>
+                    <TeamSection img={"/static/img/main/team/imgi_26_team-2.webp"} title={"والتر وایت"} job={"مدیر اجرایی"}/>
+                    <TeamSection img={"/static/img/main/team/imgi_27_team-3.webp"} title={"دکستر"} job={"فرانت اند"}/>
+                    <TeamSection img={"/static/img/main/team/imgi_28_team-4.webp"} title={"هانیبال"} job={"بک اند"}/>
                 </div>
             </section>
         </main>

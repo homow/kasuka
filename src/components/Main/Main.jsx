@@ -201,6 +201,13 @@ function Main() {
                     </div>
                 </div>
             </section>
+
+            {/* testimonials section */}
+            <section id="testimonials" className={"mt-20 bg-[url('/static/img/main/testimonials/imgi_33_testimonials-bg.webp')] bg-fixed bg-center bg-cover py-14"}>
+                <div className="container">
+
+                </div>
+            </section>
         </main>
     )
 }

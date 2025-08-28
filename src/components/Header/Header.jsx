@@ -27,9 +27,9 @@ function Header() {
     return (
         <>
             <span id="header-trigger" className="block"></span>
-            <a id={"scroll-button"} href={'#'} className={"hidden p-3 fixed bottom-4 right-4 z-10 bg-amber-400 rounded-lg"}>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="size-5">
-                    <path fillRule="evenodd" d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm-.75-4.75a.75.75 0 0 0 1.5 0V8.66l1.95 2.1a.75.75 0 1 0 1.1-1.02l-3.25-3.5a.75.75 0 0 0-1.1 0L6.2 9.74a.75.75 0 1 0 1.1 1.02l1.95-2.1v4.59Z" clipRule="evenodd"/>
+            <a id={"scroll-button"} href={'#'} className={"hidden p-2 fixed bottom-2 right-2 z-10 bg-amber-400 rounded-lg"}>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 6.75 12 3m0 0 3.75 3.75M12 3v18" />
                 </svg>
             </a>
             <header id={"header"} className="relative h-screen pt-18 text-white bg-[url('/static/img/header/hero-bg.webp')] bg-cover bg-fixed bg-center">

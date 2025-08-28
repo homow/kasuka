@@ -206,7 +206,8 @@ function Main() {
             {/* testimonials section */}
             <section id="testimonials" className={"relative mt-20 bg-[url('/static/img/main/testimonials/imgi_33_testimonials-bg.webp')] bg-fixed bg-center bg-cover py-14"}>
                 <div className="absolute inset-0 bg-black/80"></div>
-                <div className="relative max-w-170 mx-auto z-20 overflow-x-auto flex flex-row *:shrink-0">
+
+                <div className="relative z-20 max-w-200 mx-auto flex flex-row gap-4 overflow-x-auto overflow-y-hidden">
                     <Testimonials img = "public/static/img/main/testimonials/imgi_20_testimonials-1.webp" title = "سارا ویلسون" subtitle = "فریلسنر" text = "پیامد های خالص بدون هیچ افزونه و وابستگی و فریم ورک یا کتابخانه ای، همه چیز خالص ترین حالت ممکن است، همه چی صاف و زیبا، دقیقا شبیه به درست بودن ایران." />
                     <Testimonials img = "public/static/img/main/testimonials/imgi_20_testimonials-1.webp" title = "سارا ویلسون" subtitle = "فریلسنر" text = "پیامد های خالص بدون هیچ افزونه و وابستگی و فریم ورک یا کتابخانه ای، همه چیز خالص ترین حالت ممکن است، همه چی صاف و زیبا، دقیقا شبیه به درست بودن ایران." />
                     <Testimonials img = "public/static/img/main/testimonials/imgi_20_testimonials-1.webp" title = "سارا ویلسون" subtitle = "فریلسنر" text = "پیامد های خالص بدون هیچ افزونه و وابستگی و فریم ورک یا کتابخانه ای، همه چیز خالص ترین حالت ممکن است، همه چی صاف و زیبا، دقیقا شبیه به درست بودن ایران." />

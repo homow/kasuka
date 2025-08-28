@@ -1,5 +1,6 @@
 "use strict";
 
+import InfoSection from "@/components/Main/InfoSection/InfoSection.jsx";
 import TextIcon from "@/components/Main/Main-about/TextIcon.jsx";
 import BrandsLogo from '@/components/Main/Main-about/BrandsLogo.jsx'
 import IconTitleText from "@/components/Main/Main-Feature/IconTitleText.jsx";
@@ -7,6 +8,8 @@ import TitleIconServices from "@/components/Main/Main-Services/TitleIconServices
 import MainCountIcons from "@/components/Main/Main-Count-Icons/MainCountIcons.jsx";
 import Testimonials from "@/components/Main/Testimonials/Testimonials.jsx";
 import TeamSection from "@/components/Main/TeamSction/TeamSection.jsx";
+import ContactInfo from "@/components/Main/ContactInfo/ContactInfo.jsx";
+import Form from "@/components/Main/Form/Form.jsx";
 
 function Main() {
     return (
@@ -76,10 +79,7 @@ function Main() {
 
             {/* --- Services Section --- */}
             <section id={"services"} className={"mt-20"}>
-                <div className={"container"}>
-                    <h2 className="info-section-text">خدمات</h2>
-                    <p className={"info-section-title"}>خدمات ما را بررسی کنید</p>
-                </div>
+                <InfoSection title={"خدمات"} text={"خدمات ما را بررسی کنید"}/>
                 <div className={"container space-y-6 mt-8 md:space-y-0 md:grid md:grid-cols-2 md:gap-4 lg:grid-cols-3"}>
                     <TitleIconServices icon={<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
                         <path strokeLinecap="round" strokeLinejoin="round" d="M12 21a9.004 9.004 0 0 0 8.716-6.747M12 21a9.004 9.004 0 0 1-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 0 1 7.843 4.582M12 3a8.997 8.997 0 0 0-7.843 4.582m15.686 0A11.953 11.953 0 0 1 12 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0 1 21 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0 1 12 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 0 1 3 12c0-1.605.42-3.113 1.157-4.418"/>
@@ -126,10 +126,7 @@ function Main() {
 
             {/* portfolio */}
             <section className={"mt-20"}>
-                <div className={"container"}>
-                    <h2 className="info-section-text">نمونه کارها</h2>
-                    <p className={"info-section-title"}>نمونه کارهای ما را بررسی کنید</p>
-                </div>
+                <InfoSection title={"نمونه کارها"} text={"نمونه کارهای ما را بررسی کنید"}/>
                 <div className={"container"}>
                     <ul className={"mt-10 flex flex-row justify-center items-center gap-2 *:transition-all *:duration-150 *:cursor-pointer *:hover:bg-amber-400 *:hover:text-black *:py-1 *:px-2 *:rounded-sm"}>
                         <li>همه</li>
@@ -209,25 +206,53 @@ function Main() {
                 <div className="absolute inset-0 bg-black/80"></div>
 
                 <div className="relative z-20 max-w-200 mx-auto flex flex-row gap-4 overflow-x-auto overflow-y-hidden">
-                    <Testimonials img = "public/static/img/main/testimonials/imgi_22_testimonials-3.webp" title = "سارا ویلسون" subtitle = "فریلسنر" text = "پیامد های خالص بدون هیچ افزونه و وابستگی و فریم ورک یا کتابخانه ای، همه چیز خالص ترین حالت ممکن است، همه چی صاف و زیبا، دقیقا شبیه به درست بودن ایران." />
-                    <Testimonials img = "public/static/img/main/testimonials/imgi_22_testimonials-3.webp" title = "سارا ویلسون" subtitle = "فریلسنر" text = "پیامد های خالص بدون هیچ افزونه و وابستگی و فریم ورک یا کتابخانه ای، همه چیز خالص ترین حالت ممکن است، همه چی صاف و زیبا، دقیقا شبیه به درست بودن ایران." />
-                    <Testimonials img = "public/static/img/main/testimonials/imgi_22_testimonials-3.webp" title = "سارا ویلسون" subtitle = "فریلسنر" text = "پیامد های خالص بدون هیچ افزونه و وابستگی و فریم ورک یا کتابخانه ای، همه چیز خالص ترین حالت ممکن است، همه چی صاف و زیبا، دقیقا شبیه به درست بودن ایران." />
-                    <Testimonials img = "public/static/img/main/testimonials/imgi_22_testimonials-3.webp" title = "سارا ویلسون" subtitle = "فریلسنر" text = "پیامد های خالص بدون هیچ افزونه و وابستگی و فریم ورک یا کتابخانه ای، همه چیز خالص ترین حالت ممکن است، همه چی صاف و زیبا، دقیقا شبیه به درست بودن ایران." />
-                    <Testimonials img = "public/static/img/main/testimonials/imgi_22_testimonials-3.webp" title = "سارا ویلسون" subtitle = "فریلسنر" text = "پیامد های خالص بدون هیچ افزونه و وابستگی و فریم ورک یا کتابخانه ای، همه چیز خالص ترین حالت ممکن است، همه چی صاف و زیبا، دقیقا شبیه به درست بودن ایران." />
+                    <Testimonials img="public/static/img/main/testimonials/imgi_22_testimonials-3.webp" title="سارا ویلسون" subtitle="فریلسنر" text="پیامد های خالص بدون هیچ افزونه و وابستگی و فریم ورک یا کتابخانه ای، همه چیز خالص ترین حالت ممکن است، همه چی صاف و زیبا، دقیقا شبیه به درست بودن ایران."/>
+                    <Testimonials img="public/static/img/main/testimonials/imgi_22_testimonials-3.webp" title="سارا ویلسون" subtitle="فریلسنر" text="پیامد های خالص بدون هیچ افزونه و وابستگی و فریم ورک یا کتابخانه ای، همه چیز خالص ترین حالت ممکن است، همه چی صاف و زیبا، دقیقا شبیه به درست بودن ایران."/>
+                    <Testimonials img="public/static/img/main/testimonials/imgi_22_testimonials-3.webp" title="سارا ویلسون" subtitle="فریلسنر" text="پیامد های خالص بدون هیچ افزونه و وابستگی و فریم ورک یا کتابخانه ای، همه چیز خالص ترین حالت ممکن است، همه چی صاف و زیبا، دقیقا شبیه به درست بودن ایران."/>
+                    <Testimonials img="public/static/img/main/testimonials/imgi_22_testimonials-3.webp" title="سارا ویلسون" subtitle="فریلسنر" text="پیامد های خالص بدون هیچ افزونه و وابستگی و فریم ورک یا کتابخانه ای، همه چیز خالص ترین حالت ممکن است، همه چی صاف و زیبا، دقیقا شبیه به درست بودن ایران."/>
+                    <Testimonials img="public/static/img/main/testimonials/imgi_22_testimonials-3.webp" title="سارا ویلسون" subtitle="فریلسنر" text="پیامد های خالص بدون هیچ افزونه و وابستگی و فریم ورک یا کتابخانه ای، همه چیز خالص ترین حالت ممکن است، همه چی صاف و زیبا، دقیقا شبیه به درست بودن ایران."/>
                 </div>
             </section>
 
             {/* team section */}
             <section id={"team-section"} className={"mt-20"}>
-                <div className={"container"}>
-                    <h2 className="info-section-text">تیم</h2>
-                    <p className={"info-section-title"}>تیم ما را بررسی کنید</p>
-                </div>
+                <InfoSection title={"تیم"} text={"تیم ما را بررسی کنید"}/>
                 <div className={"mt-8 container space-y-8 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-8 lg:grid lg:grid-cols-4 lg:gap-8"}>
                     <TeamSection img={"/static/img/main/team/imgi_25_team-1.webp"} title={"چنگیز"} job={"مدیر کل"}/>
                     <TeamSection img={"/static/img/main/team/imgi_26_team-2.webp"} title={"والتر وایت"} job={"مدیر اجرایی"}/>
                     <TeamSection img={"/static/img/main/team/imgi_27_team-3.webp"} title={"دکستر"} job={"فرانت اند"}/>
                     <TeamSection img={"/static/img/main/team/imgi_28_team-4.webp"} title={"هانیبال"} job={"بک اند"}/>
+                </div>
+            </section>
+
+            {/* contact us */}
+            <section id={"contact-us"} className={"mt-20"}>
+                <InfoSection title={"تماس با ما"} text={"با ما تماس بگیرید"}/>
+
+                {/* map */}
+                <div id={"map"} className={"mt-8 container"}>
+                    <iframe style={{border: 0, width: '100%', height: '270px'}} src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameBorder="0" allowFullScreen loading="lazy" title="Google Map"></iframe>
+                </div>
+
+                <div className="mt-12 container flex flex-col gap-8 md:flex-row">
+                    <div className={"basis-2/5 space-y-8"}>
+                        <ContactInfo icon={<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/>
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"/>
+                        </svg>
+                        } title={"مکان:"} text={"تهران خیابان آزادی"}/>
+                        <ContactInfo icon={<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75"/>
+                        </svg>
+                        } title={"ایمیل:"} text={"homow_dev.proton.me"}/>
+                        <ContactInfo icon={<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 1.5H8.25A2.25 2.25 0 0 0 6 3.75v16.5a2.25 2.25 0 0 0 2.25 2.25h7.5A2.25 2.25 0 0 0 18 20.25V3.75a2.25 2.25 0 0 0-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3"/>
+                        </svg>
+                        } title={"شماره تماس:"} text={"0123456789"}/>
+                    </div>
+                    <div className={"basis-3/5"}>
+                        <Form/>
+                    </div>
                 </div>
             </section>
         </main>

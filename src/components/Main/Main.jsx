@@ -51,7 +51,7 @@ function Main() {
             <section id="feature" className={"mt-20"}>
                 <div className={"container lg:flex lg:flex-row lg:gap-4 lg:items-center lg:justify-center"}>
                     <div className={"lg:max-w-165 lg:max-h-103 basis-1/2"}>
-                        <img className={"w-full h-12/12 xl:max-h-103"} src="/static/img/main/Feature.webp" alt="Feature Image"/>
+                        <img loading={"lazy"} className={"w-full h-12/12 xl:max-h-103"} src="/static/img/main/Feature.webp" alt="Feature Image"/>
                     </div>
                     <div className={"mt-8 space-y-6 md:space-y-8 basis-1/2 lg:mt-0"}>
                         <IconTitleText text={"نتایج یا در نتیجه هر یک از این اهداف اشتغال حاصل می شوند"} title={"تبلیغ سختی است"} icon={<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="oklch(82.8% 0.189 84.429)" className="size-12">
@@ -139,31 +139,31 @@ function Main() {
                     </ul>
                     <div className={"mt-10 space-y-8 sm:columns-2 md:columns-3 lg:columns-4"}>
                         <div className={"max-h-max"}>
-                            <img className={"w-full h-auto object-cover"} src="/static/img/main/portfolio/imgi_11_portfolio-1.webp" alt="img"/>
+                            <img loading={"lazy"} className={"w-full h-auto object-cover"} src="/static/img/main/portfolio/imgi_11_portfolio-1.webp" alt="img"/>
                         </div>
                         <div className={"max-h-max"}>
-                            <img className={"w-full h-auto object-cover"} src="/static/img/main/portfolio/imgi_12_portfolio-2.webp" alt="img"/>
+                            <img loading={"lazy"} className={"w-full h-auto object-cover"} src="/static/img/main/portfolio/imgi_12_portfolio-2.webp" alt="img"/>
                         </div>
                         <div className={"max-h-max"}>
-                            <img className={"w-full h-auto object-cover"} src="/static/img/main/portfolio/imgi_13_portfolio-3.webp" alt="img"/>
+                            <img loading={"lazy"} className={"w-full h-auto object-cover"} src="/static/img/main/portfolio/imgi_13_portfolio-3.webp" alt="img"/>
                         </div>
                         <div className={"max-h-max"}>
-                            <img className={"w-full h-auto object-cover"} src="/static/img/main/portfolio/imgi_15_portfolio-5.webp" alt="img"/>
+                            <img loading={"lazy"} className={"w-full h-auto object-cover"} src="/static/img/main/portfolio/imgi_15_portfolio-5.webp" alt="img"/>
                         </div>
                         <div className={"max-h-max"}>
-                            <img className={"w-full h-auto object-cover"} src="/static/img/main/portfolio/imgi_14_portfolio-4.webp" alt="img"/>
+                            <img loading={"lazy"} className={"w-full h-auto object-cover"} src="/static/img/main/portfolio/imgi_14_portfolio-4.webp" alt="img"/>
                         </div>
                         <div className={"max-h-max"}>
-                            <img className={"w-full h-auto object-cover"} src="/static/img/main/portfolio/imgi_17_portfolio-7.webp" alt="img"/>
+                            <img loading={"lazy"} className={"w-full h-auto object-cover"} src="/static/img/main/portfolio/imgi_17_portfolio-7.webp" alt="img"/>
                         </div>
                         <div className={"max-h-max"}>
-                            <img className={"w-full h-auto object-cover"} src="/static/img/main/portfolio/imgi_18_portfolio-8.webp" alt="img"/>
+                            <img loading={"lazy"} className={"w-full h-auto object-cover"} src="/static/img/main/portfolio/imgi_18_portfolio-8.webp" alt="img"/>
                         </div>
                         <div className={"max-h-max"}>
-                            <img className={"w-full h-auto object-cover"} src="/static/img/main/portfolio/imgi_16_portfolio-6.webp" alt="img"/>
+                            <img loading={"lazy"} className={"w-full h-auto object-cover"} src="/static/img/main/portfolio/imgi_16_portfolio-6.webp" alt="img"/>
                         </div>
                         <div className={"max-h-max"}>
-                            <img className={"w-full h-auto object-cover"} src="/static/img/main/portfolio/imgi_19_portfolio-9.webp" alt="img"/>
+                            <img loading={"lazy"} className={"w-full h-auto object-cover"} src="/static/img/main/portfolio/imgi_19_portfolio-9.webp" alt="img"/>
                         </div>
                     </div>
                 </div>
@@ -173,7 +173,7 @@ function Main() {
             <section id={"count-section"} className={"mt-20"}>
                 <div className={"container xl:max-w-[80%] 2xl:max-w-[70%] xl:flex flex-row gap-4"}>
                     <div className={"basis-1/3 md:h-100 xl:w-200"}>
-                        <img src="/static/img/main/imgi_32_counts-img.webp" alt="team" className="w-full h-full object-cover"/>
+                        <img loading={"lazy"} src="/static/img/main/imgi_32_counts-img.webp" alt="team" className="w-full h-full object-cover"/>
                     </div>
                     <div className={"basis-2/3"}>
                         <div className={"mt-8 xl:mt-0"}>
@@ -220,8 +220,8 @@ function Main() {
             {/* team section */}
             <section id={"team-section"} className={"mt-20"}>
                 <div className={"container"}>
-                    <h2 className="info-section-text">خدمات</h2>
-                    <p className={"info-section-title"}>خدمات ما را بررسی کنید</p>
+                    <h2 className="info-section-text">تیم</h2>
+                    <p className={"info-section-title"}>تیم ما را بررسی کنید</p>
                 </div>
                 <div className={"mt-8 container space-y-8 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-8 lg:grid lg:grid-cols-4 lg:gap-8"}>
                     <TeamSection img={"/static/img/main/team/imgi_25_team-1.webp"} title={"چنگیز"} job={"مدیر کل"}/>

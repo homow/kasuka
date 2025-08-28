@@ -5,6 +5,7 @@ import BrandsLogo from '@/components/Main/Main-about/BrandsLogo.jsx'
 import IconTitleText from "@/components/Main/Main-Feature/IconTitleText.jsx";
 import TitleIconServices from "@/components/Main/Main-Services/TitleIconServices.jsx"
 import MainCountIcons from "@/components/Main/Main-Count-Icons/MainCountIcons.jsx";
+import Testimonials from "@/components/Main/Testimonials/Testimonials.jsx";
 
 function Main() {
     return (
@@ -203,9 +204,14 @@ function Main() {
             </section>
 
             {/* testimonials section */}
-            <section id="testimonials" className={"mt-20 bg-[url('/static/img/main/testimonials/imgi_33_testimonials-bg.webp')] bg-fixed bg-center bg-cover py-14"}>
-                <div className="container">
-
+            <section id="testimonials" className={"relative mt-20 bg-[url('/static/img/main/testimonials/imgi_33_testimonials-bg.webp')] bg-fixed bg-center bg-cover py-14"}>
+                <div className="absolute inset-0 bg-black/80"></div>
+                <div className="relative max-w-170 mx-auto z-20 overflow-x-auto flex flex-row *:shrink-0">
+                    <Testimonials img = "public/static/img/main/testimonials/imgi_20_testimonials-1.webp" title = "سارا ویلسون" subtitle = "فریلسنر" text = "پیامد های خالص بدون هیچ افزونه و وابستگی و فریم ورک یا کتابخانه ای، همه چیز خالص ترین حالت ممکن است، همه چی صاف و زیبا، دقیقا شبیه به درست بودن ایران." />
+                    <Testimonials img = "public/static/img/main/testimonials/imgi_20_testimonials-1.webp" title = "سارا ویلسون" subtitle = "فریلسنر" text = "پیامد های خالص بدون هیچ افزونه و وابستگی و فریم ورک یا کتابخانه ای، همه چیز خالص ترین حالت ممکن است، همه چی صاف و زیبا، دقیقا شبیه به درست بودن ایران." />
+                    <Testimonials img = "public/static/img/main/testimonials/imgi_20_testimonials-1.webp" title = "سارا ویلسون" subtitle = "فریلسنر" text = "پیامد های خالص بدون هیچ افزونه و وابستگی و فریم ورک یا کتابخانه ای، همه چیز خالص ترین حالت ممکن است، همه چی صاف و زیبا، دقیقا شبیه به درست بودن ایران." />
+                    <Testimonials img = "public/static/img/main/testimonials/imgi_20_testimonials-1.webp" title = "سارا ویلسون" subtitle = "فریلسنر" text = "پیامد های خالص بدون هیچ افزونه و وابستگی و فریم ورک یا کتابخانه ای، همه چیز خالص ترین حالت ممکن است، همه چی صاف و زیبا، دقیقا شبیه به درست بودن ایران." />
+                    <Testimonials img = "public/static/img/main/testimonials/imgi_20_testimonials-1.webp" title = "سارا ویلسون" subtitle = "فریلسنر" text = "پیامد های خالص بدون هیچ افزونه و وابستگی و فریم ورک یا کتابخانه ای، همه چیز خالص ترین حالت ممکن است، همه چی صاف و زیبا، دقیقا شبیه به درست بودن ایران." />
                 </div>
             </section>
         </main>

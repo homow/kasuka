@@ -207,7 +207,7 @@ function Main() {
                 <div className="absolute inset-0 bg-black/80"></div>
 
                 <div className="relative z-20 max-w-200 mx-auto flex flex-row gap-4 overflow-x-auto overflow-y-hidden">
-                    <Testimonials img="public/static/img/main/testimonials/imgi_22_testimonials-3.webp" title="سارا ویلسون" subtitle="فریلسنر" text="پیامد های خالص بدون هیچ افزونه و وابستگی و فریم ورک یا کتابخانه ای، همه چیز خالص ترین حالت ممکن است، همه چی صاف و زیبا، دقیقا شبیه به درست بودن ایران."/>
+                    <Testimonials img="/static/img/main/testimonials/imgi_22_testimonials-3.webp" title="سارا ویلسون" subtitle="فریلسنر" text="پیامد های خالص بدون هیچ افزونه و وابستگی و فریم ورک یا کتابخانه ای، همه چیز خالص ترین حالت ممکن است، همه چی صاف و زیبا، دقیقا شبیه به درست بودن ایران."/>
                 </div>
             </section>
 

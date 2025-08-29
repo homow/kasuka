@@ -1,6 +1,6 @@
 function FooterLinks({title, link1, link2, link3, link4, link5}) {
     return (
-        <div className={"space-y-3 container"}>
+        <div className={"space-y-3"}>
             <h4 className={"font-dana-bl"}>{title}</h4>
             <ul className={"*:flex *:pr-2 space-y-3 font-dana-lt"}>
                 <li>

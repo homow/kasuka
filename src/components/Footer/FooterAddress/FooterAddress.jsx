@@ -2,7 +2,7 @@ import FooterSocial from "@/components/Footer/FooterAddress/FooterSocial.jsx";
 
 function FooterAddress() {
     return (
-        <div className={"container space-y-2"}>
+        <div className={"space-y-2"}>
             <a className={"inline-block"} href="https://homow.ir" target={"_blank"}>
                 <img className={"w-34"} src="/static/logo/logo.webp" alt="footer logo"/>
             </a>

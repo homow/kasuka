@@ -130,7 +130,7 @@ function Main() {
                 <InfoSection title={"نمونه کارها"} text={"نمونه کارهای ما را بررسی کنید"}/>
                 <div className={"container"}>
                     <ul className={"mt-10 flex flex-row justify-center items-center gap-2 *:transition-all *:duration-150 *:cursor-pointer *:hover:bg-amber-400 *:hover:text-black *:py-1 *:px-2 *:rounded-sm"}>
-                        <li>همه</li>
+                        <li className={"bg-amber-400"}>همه</li>
                         <li>برنامه</li>
                         <li>محصول</li>
                         <li>اینترنت</li>

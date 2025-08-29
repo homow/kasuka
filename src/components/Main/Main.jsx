@@ -1,5 +1,6 @@
 "use strict";
 
+import {BASE_PATH} from "@/basePath.js";
 import InfoSection from "@/components/Main/InfoSection/InfoSection.jsx";
 import TextIcon from "@/components/Main/Main-about/TextIcon.jsx";
 import BrandsLogo from '@/components/Main/Main-about/BrandsLogo.jsx'
@@ -19,7 +20,7 @@ function Main() {
                 <div className={"container"}>
                     <div className={"flex flex-col gap-4 lg:flex-row-reverse"}>
                         <div className={"basis-1/2 max-w-175 mx-auto"}>
-                            <img className={"w-full"} src="/static/img/main/about.webp" alt="about this site" loading={"lazy"}/>
+                            <img className={"w-full"} src={`${BASE_PATH}/static/img/main/about.webp`} alt="about this site" loading={"lazy"}/>
                         </div>
                         <div className={"basis-1/2 flex gap-2 flex-col"}>
                             <h2>شرکت دیجیتال کاسوکا</h2>
@@ -54,7 +55,7 @@ function Main() {
             <section id="feature" className={"mt-20"}>
                 <div className={"container lg:flex lg:flex-row lg:gap-4 lg:items-center lg:justify-center"}>
                     <div className={"lg:max-w-165 lg:max-h-103 basis-1/2"}>
-                        <img loading={"lazy"} className={"w-full h-12/12 xl:max-h-103"} src="/static/img/main/Feature.webp" alt="Feature Image"/>
+                        <img loading={"lazy"} className={"w-full h-12/12 xl:max-h-103"} src={`${BASE_PATH}/static/img/main/Feature.webp`} alt="Feature Image"/>
                     </div>
                     <div className={"mt-8 space-y-6 md:space-y-8 basis-1/2 lg:mt-0"}>
                         <IconTitleText text={"نتایج یا در نتیجه هر یک از این اهداف اشتغال حاصل می شوند"} title={"تبلیغ سختی است"} icon={<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="oklch(82.8% 0.189 84.429)" className="size-12">
@@ -136,31 +137,31 @@ function Main() {
                     </ul>
                     <div className={"mt-10 space-y-8 sm:columns-2 md:columns-3 lg:columns-4"}>
                         <div className={"max-h-max"}>
-                            <img loading={"lazy"} className={"w-full h-auto object-cover"} src="/static/img/main/portfolio/imgi_11_portfolio-1.webp" alt="img"/>
+                            <img loading={"lazy"} className={"w-full h-auto object-cover"} src={`${BASE_PATH}/static/img/main/portfolio/imgi_11_portfolio-1.webp`}alt="img"/>
                         </div>
                         <div className={"max-h-max"}>
-                            <img loading={"lazy"} className={"w-full h-auto object-cover"} src="/static/img/main/portfolio/imgi_12_portfolio-2.webp" alt="img"/>
+                            <img loading={"lazy"} className={"w-full h-auto object-cover"} src={`${BASE_PATH}/static/img/main/portfolio/imgi_12_portfolio-2.webp`}alt="img"/>
                         </div>
                         <div className={"max-h-max"}>
-                            <img loading={"lazy"} className={"w-full h-auto object-cover"} src="/static/img/main/portfolio/imgi_13_portfolio-3.webp" alt="img"/>
+                            <img loading={"lazy"} className={"w-full h-auto object-cover"} src={`${BASE_PATH}/static/img/main/portfolio/imgi_13_portfolio-3.webp`}alt="img"/>
                         </div>
                         <div className={"max-h-max"}>
-                            <img loading={"lazy"} className={"w-full h-auto object-cover"} src="/static/img/main/portfolio/imgi_15_portfolio-5.webp" alt="img"/>
+                            <img loading={"lazy"} className={"w-full h-auto object-cover"} src={`${BASE_PATH}/static/img/main/portfolio/imgi_15_portfolio-5.webp`}alt="img"/>
                         </div>
                         <div className={"max-h-max"}>
-                            <img loading={"lazy"} className={"w-full h-auto object-cover"} src="/static/img/main/portfolio/imgi_14_portfolio-4.webp" alt="img"/>
+                            <img loading={"lazy"} className={"w-full h-auto object-cover"} src={`${BASE_PATH}/static/img/main/portfolio/imgi_14_portfolio-4.webp`} alt="img"/>
                         </div>
                         <div className={"max-h-max"}>
-                            <img loading={"lazy"} className={"w-full h-auto object-cover"} src="/static/img/main/portfolio/imgi_17_portfolio-7.webp" alt="img"/>
+                            <img loading={"lazy"} className={"w-full h-auto object-cover"} src={`${BASE_PATH}/static/img/main/portfolio/imgi_17_portfolio-7.webp`} alt="img"/>
                         </div>
                         <div className={"max-h-max"}>
-                            <img loading={"lazy"} className={"w-full h-auto object-cover"} src="/static/img/main/portfolio/imgi_18_portfolio-8.webp" alt="img"/>
+                            <img loading={"lazy"} className={"w-full h-auto object-cover"} src={`${BASE_PATH}/static/img/main/portfolio/imgi_18_portfolio-8.webp`}alt="img"/>
                         </div>
                         <div className={"max-h-max"}>
-                            <img loading={"lazy"} className={"w-full h-auto object-cover"} src="/static/img/main/portfolio/imgi_16_portfolio-6.webp" alt="img"/>
+                            <img loading={"lazy"} className={"w-full h-auto object-cover"} src={`${BASE_PATH}/static/img/main/portfolio/imgi_16_portfolio-6.webp`}alt="img"/>
                         </div>
                         <div className={"max-h-max"}>
-                            <img loading={"lazy"} className={"w-full h-auto object-cover"} src="/static/img/main/portfolio/imgi_19_portfolio-9.webp" alt="img"/>
+                            <img loading={"lazy"} className={"w-full h-auto object-cover"} src={`${BASE_PATH}/static/img/main/portfolio/imgi_19_portfolio-9.webp`}alt="img"/>
                         </div>
                     </div>
                 </div>
@@ -170,7 +171,7 @@ function Main() {
             <section id={"count-section"} className={"mt-20"}>
                 <div className={"container xl:max-w-[80%] 2xl:max-w-[70%] xl:flex flex-row gap-4"}>
                     <div className={"basis-1/3 md:h-100 xl:w-200"}>
-                        <img loading={"lazy"} src="/static/img/main/imgi_32_counts-img.webp" alt="team" className="w-full h-full object-cover"/>
+                        <img loading={"lazy"} src={`${BASE_PATH}/static/img/main/imgi_32_counts-img.webp`} alt="team" className="w-full h-full object-cover"/>
                     </div>
                     <div className={"basis-2/3"}>
                         <div className={"mt-8 xl:mt-0"}>

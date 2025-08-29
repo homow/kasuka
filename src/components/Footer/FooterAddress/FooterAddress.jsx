@@ -1,10 +1,11 @@
 import FooterSocial from "@/components/Footer/FooterAddress/FooterSocial.jsx";
+import {BASE_PATH} from "@/basePath.js";
 
 function FooterAddress() {
     return (
         <div className={"space-y-2"}>
             <a className={"inline-block"} href="https://homow.ir" target={"_blank"}>
-                <img className={"w-34"} src="/static/logo/logo.webp" alt="footer logo"/>
+                <img className={"w-34"} src={`${BASE_PATH}/static/logo/logo.webp`} alt="footer logo"/>
             </a>
             <p>تهران خیابان آزادی</p>
             <p>تلفن: 0123456789</p>

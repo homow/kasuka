@@ -32,7 +32,7 @@ function Header() {
                     <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 6.75 12 3m0 0 3.75 3.75M12 3v18" />
                 </svg>
             </a>
-            <header id={"header"} className="relative h-screen pt-18 text-white bg-[url('/static/img/header/hero-bg.webp')] bg-cover bg-fixed bg-center">
+            <header id={"header"} className="relative max-h-max pt-18 pb-8 text-white bg-[url('/static/img/header/hero-bg.webp')] bg-cover bg-fixed bg-center">
                 <div className={"absolute inset-0 bg-black/70"}></div>
                 <div className="relative container z-10 sm:mt-40 sm:space-y-40">
                     <NavBar/>

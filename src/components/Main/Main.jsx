@@ -137,16 +137,16 @@ function Main() {
                     </ul>
                     <div className={"mt-10 space-y-8 sm:columns-2 md:columns-3 lg:columns-4"}>
                         <div className={"max-h-max"}>
-                            <img loading={"lazy"} className={"w-full h-auto object-cover"} src={`${BASE_PATH}/static/img/main/portfolio/imgi_11_portfolio-1.webp`}alt="img"/>
+                            <img loading={"lazy"} className={"w-full h-auto object-cover"} src={`${BASE_PATH}/static/img/main/portfolio/imgi_11_portfolio-1.webp`} alt="img"/>
                         </div>
                         <div className={"max-h-max"}>
-                            <img loading={"lazy"} className={"w-full h-auto object-cover"} src={`${BASE_PATH}/static/img/main/portfolio/imgi_12_portfolio-2.webp`}alt="img"/>
+                            <img loading={"lazy"} className={"w-full h-auto object-cover"} src={`${BASE_PATH}/static/img/main/portfolio/imgi_12_portfolio-2.webp`} alt="img"/>
                         </div>
                         <div className={"max-h-max"}>
-                            <img loading={"lazy"} className={"w-full h-auto object-cover"} src={`${BASE_PATH}/static/img/main/portfolio/imgi_13_portfolio-3.webp`}alt="img"/>
+                            <img loading={"lazy"} className={"w-full h-auto object-cover"} src={`${BASE_PATH}/static/img/main/portfolio/imgi_13_portfolio-3.webp`} alt="img"/>
                         </div>
                         <div className={"max-h-max"}>
-                            <img loading={"lazy"} className={"w-full h-auto object-cover"} src={`${BASE_PATH}/static/img/main/portfolio/imgi_15_portfolio-5.webp`}alt="img"/>
+                            <img loading={"lazy"} className={"w-full h-auto object-cover"} src={`${BASE_PATH}/static/img/main/portfolio/imgi_15_portfolio-5.webp`} alt="img"/>
                         </div>
                         <div className={"max-h-max"}>
                             <img loading={"lazy"} className={"w-full h-auto object-cover"} src={`${BASE_PATH}/static/img/main/portfolio/imgi_14_portfolio-4.webp`} alt="img"/>
@@ -155,13 +155,13 @@ function Main() {
                             <img loading={"lazy"} className={"w-full h-auto object-cover"} src={`${BASE_PATH}/static/img/main/portfolio/imgi_17_portfolio-7.webp`} alt="img"/>
                         </div>
                         <div className={"max-h-max"}>
-                            <img loading={"lazy"} className={"w-full h-auto object-cover"} src={`${BASE_PATH}/static/img/main/portfolio/imgi_18_portfolio-8.webp`}alt="img"/>
+                            <img loading={"lazy"} className={"w-full h-auto object-cover"} src={`${BASE_PATH}/static/img/main/portfolio/imgi_18_portfolio-8.webp`} alt="img"/>
                         </div>
                         <div className={"max-h-max"}>
-                            <img loading={"lazy"} className={"w-full h-auto object-cover"} src={`${BASE_PATH}/static/img/main/portfolio/imgi_16_portfolio-6.webp`}alt="img"/>
+                            <img loading={"lazy"} className={"w-full h-auto object-cover"} src={`${BASE_PATH}/static/img/main/portfolio/imgi_16_portfolio-6.webp`} alt="img"/>
                         </div>
                         <div className={"max-h-max"}>
-                            <img loading={"lazy"} className={"w-full h-auto object-cover"} src={`${BASE_PATH}/static/img/main/portfolio/imgi_19_portfolio-9.webp`}alt="img"/>
+                            <img loading={"lazy"} className={"w-full h-auto object-cover"} src={`${BASE_PATH}/static/img/main/portfolio/imgi_19_portfolio-9.webp`} alt="img"/>
                         </div>
                     </div>
                 </div>

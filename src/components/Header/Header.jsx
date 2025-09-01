@@ -1,41 +1,15 @@
 "use strict";
 
-import {useEffect} from "react";
 import NavBar from '@/components/Header/NavBar.jsx'
 import HeaderIconBox from "@/components/Header/HeaderIconBox.jsx";
 
 function Header() {
-    useEffect(() => {
-        const target = document.getElementById("header-trigger");
-        const button = document.getElementById("scroll-button");
-
-        if (!target || !button) return;
-
-        const observer = new IntersectionObserver(([entry]) => {
-            if (entry.isIntersecting) {
-                button.classList.add("hidden");
-            } else {
-                button.classList.remove("hidden");
-            }
-        });
-
-        observer.observe(target);
-
-        return () => observer.disconnect();
-    }, []);
-
     return (
         <>
-            <span id="header-trigger" className="block"></span>
-            <a id={"scroll-button"} href={'#'} className={"hidden p-2 fixed bottom-2 right-2 z-10 bg-amber-400 rounded-lg"}>
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 6.75 12 3m0 0 3.75 3.75M12 3v18" />
-                </svg>
-            </a>
+            <NavBar/>
             <header id={"header"} className="relative max-h-max pt-18 pb-8 text-white bg-[url('/static/img/header/hero-bg.webp')] bg-cover bg-fixed bg-center">
                 <div className={"absolute inset-0 bg-black/70"}></div>
-                <div className="relative container z-10 sm:mt-40 sm:space-y-40">
-                    <NavBar/>
+                <div className="relative container z-20 sm:mt-40 sm:space-y-40">
                     <div className={"mt-14 text-center max-w-120 mx-auto space-y-3"}>
                         <h1>
                             راه حل های قدرتمند دیجیتال با

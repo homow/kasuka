@@ -24,7 +24,7 @@ const navMenuHandler = elem => {
 
 function NavBar() {
     return (<StrictMode>
-        <nav className={"z-50 fixed bg-black/80 backdrop-blur-3xl top-0 py-4 right-0 left-0"}>
+        <nav className={"z-50 text-white fixed bg-black/80 backdrop-blur-3xl top-0 py-4 right-0 left-0"}>
             <div className={'container flex items-center justify-between'}>
                 <div id="overlay" className="fixed inset-0 -bottom-2000 bg-black/60 z-10 hidden"></div>
                 <div className={"max-w-30"}><a href="https://homow.ir"><img className={"w-full"} src={`${BASE_PATH}/static/logo/logo.webp`} alt="logo"/></a></div>
